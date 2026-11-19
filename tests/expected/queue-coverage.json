@@ -1,0 +1,18 @@
+[
+  {
+    "fact_id": "queue-coverage-01",
+    "queue_m2": 32,
+    "observations": {
+      "08:00": {
+        "covered_m2": 12,
+        "fraction": 0.375,
+        "peak": true
+      },
+      "12:00": {
+        "covered_m2": 0,
+        "fraction": 0,
+        "peak": false
+      }
+    }
+  }
+]

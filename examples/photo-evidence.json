@@ -1,0 +1,30 @@
+{
+  "records": [
+    {
+      "id": "photo-evidence-01",
+      "uploads": [
+        {
+          "point": "S1",
+          "visit": "AM",
+          "photo": "P1",
+          "revision": 1,
+          "approved": true
+        },
+        {
+          "point": "S1",
+          "visit": "AM",
+          "photo": "P2",
+          "revision": 2,
+          "approved": true
+        },
+        {
+          "point": "S1",
+          "visit": "PM",
+          "photo": "P3",
+          "revision": 1,
+          "approved": false
+        }
+      ]
+    }
+  ]
+}

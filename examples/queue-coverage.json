@@ -1,0 +1,35 @@
+{
+  "records": [
+    {
+      "id": "queue-coverage-01",
+      "queue": [
+        0,
+        0,
+        8,
+        4
+      ],
+      "time_samples": [
+        {
+          "slot": "08:00",
+          "shadow": [
+            2,
+            -2,
+            10,
+            2
+          ],
+          "peak": true
+        },
+        {
+          "slot": "12:00",
+          "shadow": [
+            8,
+            0,
+            10,
+            5
+          ],
+          "peak": false
+        }
+      ]
+    }
+  ]
+}

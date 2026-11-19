@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "public-shade-evidence"
+version = "0.1.0"
+description = "街道遮阴与公共空间数据"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools]
+packages = ["public_shade_evidence"]

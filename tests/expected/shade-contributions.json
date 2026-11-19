@@ -1,0 +1,11 @@
+[
+  {
+    "fact_id": "shade-contributions-01",
+    "public_shade_m2": {
+      "tree": 4,
+      "building": 0,
+      "shared": 4,
+      "unattributed": 2
+    }
+  }
+]

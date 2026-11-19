@@ -1,0 +1,25 @@
+{
+  "records": [
+    {
+      "id": "walk-exposure-01",
+      "segments": [
+        {
+          "status": "sunlit",
+          "length_m": 12
+        },
+        {
+          "status": "sunlit",
+          "length_m": 8
+        },
+        {
+          "status": "unobserved",
+          "length_m": 2
+        },
+        {
+          "status": "sunlit",
+          "length_m": 17
+        }
+      ]
+    }
+  ]
+}

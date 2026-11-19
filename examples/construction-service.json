@@ -1,0 +1,23 @@
+{
+  "records": [
+    {
+      "id": "construction-service-01",
+      "closure_start_day": 9,
+      "closure_end_day": 13,
+      "temporary_shelters": [
+        {
+          "shelter": "T1",
+          "open_day": 10,
+          "close_day": 12,
+          "accepted": true
+        },
+        {
+          "shelter": "T2",
+          "open_day": 9,
+          "close_day": 13,
+          "accepted": false
+        }
+      ]
+    }
+  ]
+}

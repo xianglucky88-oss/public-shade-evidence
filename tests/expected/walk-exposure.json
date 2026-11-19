@@ -1,0 +1,16 @@
+[
+  {
+    "fact_id": "walk-exposure-01",
+    "route_m": 39,
+    "longest_sunlit_m": [
+      0,
+      20
+    ],
+    "unobserved_m": [
+      [
+        20,
+        22
+      ]
+    ]
+  }
+]

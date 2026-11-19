@@ -1,0 +1,17 @@
+[
+  {
+    "fact_id": "photo-evidence-01",
+    "visits": [
+      {
+        "point": "S1",
+        "visit": "AM",
+        "photo": "P2"
+      },
+      {
+        "point": "S1",
+        "visit": "PM",
+        "photo": null
+      }
+    ]
+  }
+]

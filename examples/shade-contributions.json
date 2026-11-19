@@ -1,0 +1,45 @@
+{
+  "records": [
+    {
+      "id": "shade-contributions-01",
+      "public_area": [
+        0,
+        0,
+        6,
+        3
+      ],
+      "shade_cells": [
+        {
+          "bounds": [
+            -2,
+            0,
+            2,
+            2
+          ],
+          "tree": true,
+          "building": false
+        },
+        {
+          "bounds": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "tree": true,
+          "building": true
+        },
+        {
+          "bounds": [
+            4,
+            0,
+            5,
+            2
+          ],
+          "tree": false,
+          "building": false
+        }
+      ]
+    }
+  ]
+}

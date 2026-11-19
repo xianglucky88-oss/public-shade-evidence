@@ -1,0 +1,31 @@
+[
+  {
+    "fact_id": "construction-service-01",
+    "closure_days": [
+      {
+        "day": 9,
+        "available": []
+      },
+      {
+        "day": 10,
+        "available": [
+          "T1"
+        ]
+      },
+      {
+        "day": 11,
+        "available": [
+          "T1"
+        ]
+      },
+      {
+        "day": 12,
+        "available": []
+      }
+    ],
+    "service_gap_days": [
+      9,
+      12
+    ]
+  }
+]
