@@ -1,0 +1,104 @@
+{
+  "records": [
+    {
+      "id": "construction-service-02",
+      "closure_start_day": 9,
+      "closure_end_day": 13,
+      "service_day": 10,
+      "max_sun_exposure_min": 15,
+      "min_queue_shade": 0.5,
+      "temporary_shelters": [
+        {
+          "shelter": "T1",
+          "open_day": 10,
+          "close_day": 12,
+          "accepted": true,
+          "open_time": "07:00",
+          "close_time": "09:00",
+          "queue": [
+            [0, 0, 6, 3],
+            [6, 0, 9, 3]
+          ],
+          "shadows": [
+            {
+              "from": "07:00",
+              "to": "08:20",
+              "shadow": [0, 0, 6, 3]
+            },
+            {
+              "from": "08:20",
+              "to": "09:00",
+              "shadow": [7, 0, 9, 3]
+            }
+          ]
+        },
+        {
+          "shelter": "T2",
+          "open_day": 9,
+          "close_day": 13,
+          "accepted": true,
+          "queue": [0, 0, 5, 4],
+          "shadows": [
+            {
+              "from": "07:00",
+              "to": "08:10",
+              "shadow": [0, 0, 5, 3]
+            },
+            {
+              "from": "08:10",
+              "to": "09:00",
+              "shadow": [0, 0, 2, 2]
+            }
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "route": "R-detour",
+          "shelter": "T1",
+          "segments": [
+            {
+              "segment": "approach",
+              "walk_min": 10,
+              "accessible_from": "07:00",
+              "accessible_to": "09:00",
+              "observations": [
+                {"from": "07:00", "to": "09:00", "status": "sunlit"}
+              ]
+            },
+            {
+              "segment": "detour",
+              "walk_min": 15,
+              "accessible_from": "07:00",
+              "accessible_to": "08:20",
+              "observations": [
+                {"from": "07:00", "to": "08:20", "status": "shade"}
+              ]
+            }
+          ]
+        },
+        {
+          "route": "R-direct",
+          "shelter": "T2",
+          "segments": [
+            {
+              "segment": "promenade",
+              "walk_min": 12,
+              "accessible_from": "06:00",
+              "accessible_to": "23:00",
+              "observations": [
+                {"from": "07:00", "to": "09:00", "status": "sunlit"}
+              ]
+            }
+          ]
+        }
+      ],
+      "departures": [
+        {"slot": "07:30", "depart_at": "07:30"},
+        {"slot": "08:00", "depart_at": "08:00"},
+        {"slot": "08:30", "depart_at": "08:30"},
+        {"slot": "09:00", "depart_at": "09:00"}
+      ]
+    }
+  ]
+}

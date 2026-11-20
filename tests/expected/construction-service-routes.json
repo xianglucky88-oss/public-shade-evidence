@@ -1,0 +1,238 @@
+[
+  {
+    "changes": [
+      {
+        "from": "07:30",
+        "from_reason": null,
+        "from_status": "reachable",
+        "to": "08:00",
+        "to_reason": "route+arrival",
+        "to_status": "service_gap"
+      },
+      {
+        "from": "08:30",
+        "from_reason": "route+arrival",
+        "from_status": "service_gap",
+        "to": "09:00",
+        "to_reason": "route+arrival",
+        "to_status": "unverified"
+      }
+    ],
+    "closure_days": [
+      {
+        "available": [
+          "T2"
+        ],
+        "day": 9
+      },
+      {
+        "available": [
+          "T1",
+          "T2"
+        ],
+        "day": 10
+      },
+      {
+        "available": [
+          "T1",
+          "T2"
+        ],
+        "day": 11
+      },
+      {
+        "available": [
+          "T2"
+        ],
+        "day": 12
+      }
+    ],
+    "fact_id": "construction-service-02",
+    "peak_calendar": [
+      {
+        "depart_at": "07:30:00",
+        "reason": null,
+        "routes": [
+          {
+            "arrival_at": "07:55:00",
+            "failures": [],
+            "longest_sun_min": 10.0,
+            "queue_shade": 0.666667,
+            "route": "R-detour",
+            "shelter": "T1",
+            "status": "pass",
+            "unverified": [],
+            "walk_min": 25.0
+          },
+          {
+            "arrival_at": "07:42:00",
+            "failures": [],
+            "longest_sun_min": 12.0,
+            "queue_shade": 0.75,
+            "route": "R-direct",
+            "shelter": "T2",
+            "status": "pass",
+            "unverified": [],
+            "walk_min": 12.0
+          }
+        ],
+        "slot": "07:30",
+        "status": "reachable"
+      },
+      {
+        "depart_at": "08:00:00",
+        "reason": "route+arrival",
+        "routes": [
+          {
+            "arrival_at": null,
+            "failures": [
+              {
+                "closes_at": "08:20:00",
+                "code": "segment_closed",
+                "leave_at": "08:25:00",
+                "segment": "detour",
+                "stage": "route"
+              }
+            ],
+            "longest_sun_min": null,
+            "queue_shade": null,
+            "route": "R-detour",
+            "shelter": "T1",
+            "status": "fail",
+            "unverified": [],
+            "walk_min": null
+          },
+          {
+            "arrival_at": "08:12:00",
+            "failures": [
+              {
+                "actual": 0.2,
+                "arrival_at": "08:12:00",
+                "code": "queue_shade_low",
+                "required": 0.5,
+                "shelter": "T2",
+                "stage": "arrival"
+              }
+            ],
+            "longest_sun_min": 12.0,
+            "queue_shade": 0.2,
+            "route": "R-direct",
+            "shelter": "T2",
+            "status": "fail",
+            "unverified": [],
+            "walk_min": 12.0
+          }
+        ],
+        "slot": "08:00",
+        "status": "service_gap"
+      },
+      {
+        "depart_at": "08:30:00",
+        "reason": "route+arrival",
+        "routes": [
+          {
+            "arrival_at": null,
+            "failures": [
+              {
+                "closes_at": "08:20:00",
+                "code": "segment_closed",
+                "entry_at": "08:40:00",
+                "segment": "detour",
+                "stage": "route"
+              }
+            ],
+            "longest_sun_min": null,
+            "queue_shade": null,
+            "route": "R-detour",
+            "shelter": "T1",
+            "status": "fail",
+            "unverified": [],
+            "walk_min": null
+          },
+          {
+            "arrival_at": "08:42:00",
+            "failures": [
+              {
+                "actual": 0.2,
+                "arrival_at": "08:42:00",
+                "code": "queue_shade_low",
+                "required": 0.5,
+                "shelter": "T2",
+                "stage": "arrival"
+              }
+            ],
+            "longest_sun_min": 12.0,
+            "queue_shade": 0.2,
+            "route": "R-direct",
+            "shelter": "T2",
+            "status": "fail",
+            "unverified": [],
+            "walk_min": 12.0
+          }
+        ],
+        "slot": "08:30",
+        "status": "service_gap"
+      },
+      {
+        "depart_at": "09:00:00",
+        "reason": "route+arrival",
+        "routes": [
+          {
+            "arrival_at": null,
+            "failures": [
+              {
+                "closes_at": "09:00:00",
+                "code": "segment_closed",
+                "entry_at": "09:00:00",
+                "segment": "approach",
+                "stage": "route"
+              }
+            ],
+            "longest_sun_min": null,
+            "queue_shade": null,
+            "route": "R-detour",
+            "shelter": "T1",
+            "status": "fail",
+            "unverified": [],
+            "walk_min": null
+          },
+          {
+            "arrival_at": "09:12:00",
+            "failures": [],
+            "longest_sun_min": 0.0,
+            "queue_shade": null,
+            "route": "R-direct",
+            "shelter": "T2",
+            "status": "unverified",
+            "unverified": [
+              {
+                "code": "shade_unobserved",
+                "from": "09:00:00",
+                "segment": "promenade",
+                "stage": "route",
+                "to": "09:12:00"
+              },
+              {
+                "arrival_at": "09:12:00",
+                "code": "queue_shadow_unobserved",
+                "shelter": "T2",
+                "stage": "arrival"
+              }
+            ],
+            "walk_min": 12.0
+          }
+        ],
+        "slot": "09:00",
+        "status": "unverified"
+      }
+    ],
+    "service_day": 10,
+    "service_gap_days": [],
+    "service_gap_slots": [
+      "08:00",
+      "08:30"
+    ],
+    "unverified_slots": [
+      "09:00"
+    ]
+  }
+]
